@@ -1,0 +1,22 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+:root {
+    --mainDark: #363636;
+    --lightBlue: #0099fd;
+    --mainWhite: #f3f3f3;
+    --mainYellow: #fcf7bb;
+    --mainRed: #ff1e56;
+}
+
+
+
+
+body {
+    font-family: "Oswald", sans-serif !important;
+    background: var(--mainWhite) !important;
+    color: var(--mainDark) !important;
+  }
+
+  
+
+

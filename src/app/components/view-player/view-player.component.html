@@ -1,0 +1,41 @@
+<ng-template [ngIf]="!modal">
+  <div class="modal">
+  
+    <div class="disp text-center col-10 mx-auto col-md-4 col-lg-3 p-5">
+        <div class="img-container">
+            <img
+            src={{player.img}}
+            alt="loading"
+            style="width: 15rem; height: 20rem; border-radius: 0.5rem"
+          />
+        </div>
+        <p class="p-0">  <span class="font-weight-bold">name</span>  {{player.Name}}</p>
+        <p class="p-0">  <span class="font-weight-bold">position</span>  {{player.Position}}</p>
+        <p class="p-0">  <span class="font-weight-bold">age</span>  {{player.Age}}</p>
+
+
+        <div className="d-flex">
+          <ng-template [ngIf]="player.startMatch">
+            <button [disabled]="player.startMatch"   class="material-icons  btn btn-success mx-1">
+                person_add_disabled
+            </button>
+        </ng-template>
+  
+        <ng-template [ngIf]="!player.startMatch">
+            <button [disabled]="player.startMatch" (click)="onAdd(player)"   class="material-icons  btn btn-success mx-1">
+                person_add
+            </button>
+        </ng-template>
+  
+          <button (click)="onClose()" class="btn btn-danger">
+            Close
+          </button>
+    </div>
+    </div>
+</div>
+</ng-template>
+
+
+
+
+

@@ -1,0 +1,7 @@
+.del{
+    user-select: none;
+}
+
+.del:hover{
+    cursor: pointer;
+}

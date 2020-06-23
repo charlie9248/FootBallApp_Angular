@@ -1,0 +1,29 @@
+.modal {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2rem);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .disp {
+    background: #f3f3f3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+  }
+
+  .img-container {
+    position: relative;
+    padding: 2rem 0.5rem;
+  }
+
+
+  

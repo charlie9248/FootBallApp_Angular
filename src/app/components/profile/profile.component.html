@@ -1,0 +1,37 @@
+<div class="card m-2">
+    <div class="img-container ">
+            <img
+            style="width: 10rem ; height: 10rem;" 
+            class="img card-img-top"
+            src="{{player.img}}"
+            alt=""/>
+
+            <ng-template [ngIf]="player.startMatch">
+                <button [disabled]="player.startMatch" (click)="addPlayer(player)"   class="material-icons  add-btn">
+                    person_add_disabled
+                </button>
+            </ng-template>
+
+            <ng-template [ngIf]="!player.startMatch">
+                <button [disabled]="player.startMatch" (click)="addPlayer(player)"   class="material-icons  add-btn">
+                    person_add
+                </button>
+            </ng-template>
+
+
+            <ng-template [ngIf]="modal">
+                <app-view-player [player]="player" (onAddPlayer)="onAddPlayer($event)" (onCloseModal)="onCloseModal($event)"></app-view-player>
+            </ng-template>
+
+            <ng-template [ngIf]="!modal">
+            </ng-template>
+
+           
+            <button (click)="viewPlayer()" class="material-icons  info-btn">
+                person_pin
+            </button>
+    </div>
+    <div class="card-footer">
+        <p>{{player.Name}}</p>
+    </div>
+</div>

@@ -1,0 +1,122 @@
+.img-container {
+    position: relative;
+    padding: 5rem 3rem;
+    align-self: center;
+  }
+
+  .img {
+    transition: 1s all linear;
+    border-radius: 0.4rem;
+  }
+
+
+  .img {
+    transition: 1s all linear;
+    border-radius: 0.4rem;
+  }
+  
+  .img-container:hover .img {
+    transform: scale(1.2);
+  }
+
+  .add-btn:hover,
+.info-btn:hover {
+  background: var(--mainWite);
+  color: #8cba51;
+}
+
+  .add-btn:focus,
+.info-btn:focus {
+  outline: none;
+}
+
+
+.info-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0.5rem;
+  background: #8cba51;
+  color: var(--mainWite);
+  border: none;
+  margin: 1rem;
+  font-size: 1rem;
+  transition: 1s all ease-in-out;
+}
+
+
+  .add-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0.5rem;
+    background: #8cba51;
+    color: var(--mainWite);
+    border: none;
+    margin: 1rem;
+    font-size: 1.5rem;
+  
+    transition: 1s all ease-in-out;
+  }
+
+
+  .img-container {
+    position: relative;
+    padding: 5rem 3rem;
+    align-self: center;
+  }
+
+  .img {
+    transition: 1s all linear;
+    border-radius: 0.4rem;
+  }
+
+
+  .img {
+    transition: 1s all linear;
+    border-radius: 0.4rem;
+  }
+  
+  .img-container:hover .img {
+    transform: scale(1.2);
+  }
+
+  .add-btn:hover,
+.info-btn:hover {
+  background: var(--mainWite);
+  color: #8cba51;
+}
+
+  .add-btn:focus,
+.info-btn:focus {
+  outline: none;
+}
+
+
+.info-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0.5rem;
+  background: #8cba51;
+  color: var(--mainWite);
+  border: none;
+  margin: 1rem;
+  font-size: 1rem;
+  transition: 1s all ease-in-out;
+}
+
+
+  .add-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0.5rem;
+    background: #8cba51;
+    color: var(--mainWite);
+    border: none;
+    margin: 1rem;
+    font-size: 1.5rem;
+  
+    transition: 1s all ease-in-out;
+  }

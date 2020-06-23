@@ -1,0 +1,26 @@
+<div class="container-fluid text-center">
+    <div class="row my-3 ">
+      <div class=" col-lg-2">
+        <img
+          src={{player.img}}
+          alt="loading"
+          style= "width: 5rem ;height: 5rem; border-radius:50% " 
+        />
+      </div>
+      <div class=" col-lg-2">
+        {{player.Name}}
+      </div>
+      <div class=" col-lg-2">
+        {{player.Position}}
+      </div>
+      <div class=" col-lg-2">
+        {{player.DOB}}
+      </div>
+      <div (click)="onDelete(player)"  class=" del material-icons col-lg-2 text-danger"> 
+          cached
+      </div>
+      <div class=" col-lg-2">
+        {{player.Age}}
+      </div>
+    </div>
+  </div>
